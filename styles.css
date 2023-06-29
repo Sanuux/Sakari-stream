@@ -1,0 +1,113 @@
+/* Styles CSS pour le thème anime et manga */
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Arrière-plan */
+body {
+    background-color: #f8f8f8;
+    font-family: "Arial", sans-serif;
+}
+
+/* En-tête */
+header {
+    background-color: #0e0e0e;
+    padding: 10px;
+    color: #f0ecf0;
+}
+
+.logo img {
+    width: 100px;
+    vertical-align: middle;
+    margin-right: 155px;
+}
+.anime-category {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.anime-category h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.anime-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.anime-item {
+    margin: 10px;
+    width: 200px;
+}
+
+.anime-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.anime-item h4 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Styles CSS pour la page avec une bannière d'image */
+
+.banner {
+    background-image: url("titre23.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    height: 100px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.logo h1 {
+    display: inline;
+    font-size: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
